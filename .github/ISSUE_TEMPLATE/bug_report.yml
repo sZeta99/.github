@@ -1,7 +1,7 @@
 name: 🐞 Bug report 
 description: File a bug report
 labels: ["bug", "medium priority"]
-assignees: ["Crystal-Spider"]
+assignees: ["Noir"]
 body:
 - type: checkboxes
   attributes:
@@ -40,48 +40,20 @@ body:
       4. Bug happens...
 - type: input
   attributes:
-    label: Minecraft version
+    label: Version
     description: |
-      Minecraft version you're on.
+      Version you're on.
     placeholder: |
-      E.g. 1.20.4
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Mod loader version
-    description: |
-      Mod loader name and its version. 
-    placeholder: |
-      E.g. Fabric 0.15.7
-  validations:
-    required: true
-- type: input
-  attributes:
-    label: Mod version
-    description: |
-      Mod version used.
-    placeholder: |
-      E.g. 1.0.0.0
-  validations:
-    required: true
-- type: textarea
-  attributes:
-    label: Other mods
-    description: |
-      Write a list of other mods installed or "None" if no other mods are installed.
+      Version
   validations:
     required: true
 - type: textarea
   attributes:
     label: Stacktrace and logs
     description: |
-      Optionally paste here a link to [pastebin](https://pastebin.com/) with the crash-report/log.
+      Optionally paste here a link to [pastebin](https://pastebin.com/) with the crash/report/log.
     placeholder: |
-      Under your Minecraft instance folder:
-      
-      - The crash-report is located in the "crash-reports" folder.
-      - The latest log is located in the "logs" folder under.
+      Logs or other usefull debug trace
 - type: textarea
   attributes:
     label: Additional context
