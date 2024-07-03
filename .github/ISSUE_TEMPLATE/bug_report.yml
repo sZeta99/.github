@@ -1,7 +1,7 @@
 name: 🐞 Bug report 
 description: File a bug report
 labels: ["bug", "medium priority"]
-assignees: ["Noir"]
+assignees: ["sZeta99"]
 body:
 - type: checkboxes
   attributes:
@@ -9,13 +9,6 @@ body:
     description: Please search if an issue already exists for the bug you've encountered.
     options:
     - label: I have searched for existing issues
-      required: true
-- type: checkboxes
-  attributes:
-    label: I have confirmed the mod is installed on the proper side
-    description: Please make sure the mod is installed on the specified side (e.g. server&client, server, client).
-    options:
-    - label: I have installed the mod properly
       required: true
 - type: textarea
   attributes:
